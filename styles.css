@@ -100,3 +100,9 @@ a.font-black{
 #projects .card-title{
     font-weight: bold;
 }
+
+#twitter-image{
+    margin-left:10px;
+
+    width:90%;
+}
