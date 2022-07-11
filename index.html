@@ -1,48 +1,148 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
+  <head>
     <title>Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width-device-width" ,initial-scale=1">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <link rel="icon" type="icon/png" href="img/techis-logo.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="icon/png" href="img/techis-logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href ="styles.css"
+  </head>
 
-    
-</head>
-
-<body>
+  <body>
+    <!-- bootstrap javascript here!-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <!-- container-->
-        <div class="container">
-            <!-- nav brand here it's techis brand-->
-            <a class="navbar-brand title-icon" href='#'><span class='font-primary'>P</span>ortfolio</a>
-            <!-- nav bar toggler using with collapse feature-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <!-- container-->
+      <div class="container">
+        <!-- nav brand here it's techis brand-->
+        <a class="navbar-brand title-icon" href="#"
+          ><span class="font-primary">P</span>ortfolio</a
+        >
+        <!-- nav bar toggler using with collapse feature-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- hiding content navbar toggler-->
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ms-auto mb-2">
-                    <li class="nav-item">
-                        <a class="nav-link font-black" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link font-black" href="projects">Projects</a>
-                    </li>
-                </ul>
-
-            </div>
+        <!-- hiding content navbar toggler-->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link font-black" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-black" href="projects">Projects</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</body>
+    <!-- navigation bar ends here!-->
 
+    <!-- About section starts here-->
+    <div id="about">
+      <h2 id="about-h2"><span class="font-primary">A</span>bout</h2>
+      <img src="img/sample-woman.jpg" />
+      <div class="name">Krishna Shankar</div>
+      <div class="vocation">Web Developer</div>
+      <div class="skills">
+        HTML / CSS / JavaScript / React / Redux / Nodejs / Python
+      </div>
+      <p>
+        I am a Webdeveloper as wells as python programmer. I have two years of
+        experience in teching students in the field of Web development and
+        programming. I have worked on multiple projects based on US clients and
+        some internal projects.
+      </p>
+      <div class="email">krishnashankar@techis.io</div>
+      <div class="icons">
+        <a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://in.linkedin.com/" target="_blank"><i class="bi bi-linkedin ms-2"></i></a>
+      </div>
+    </div>
+
+    <!-- About section ends here-->
+    <!-- Projects starts here-->
+    <div id="projects">
+      <h2><span class="font-primary">P</span>rojects</h2>
+
+
+<!-- bootstrap code here!-->
+
+<!-- project 1-->
+      <div class="card mb-3">
+        <div calss="row">
+            <div class="col-md-4">
+                <img src="img/project-netflix.png" alt="Netflix Project" >
+            </div>
+           <div class="col-md-8">
+             <div class="card-body">
+                <h5 class="card-title">Netflix Clone</h5>
+                <p class="card-text">This is Netflix base projects which imitates the functionality of the real Netflix website. The look and feel of the website projects is same as of the original website. I have used Html, css and javascript in this project. Other than this I have also used bootstrap. </p>
+                <p class="card-text"><small class="text-muted">
+                    Test Login Account<br>Email: test@gmail.com <br>Password:1234
+
+                </small></p>
+                <a href="https://www.netflix.com/in/" target="_blank" class="btn btn-secondary">Website link</a>
+                <a href="https://github.com/" target="_blank" class="btn btn-secondary">Github link</a>
+                 
+                
+
+
+             </div>
+           </div>
+        </div>
+      </div>
+
+
+<!-- project 2-->
+<div class="card mb-3">
+    <div calss="row">
+        <div class="col-md-4">
+            <img src="img/project-twitter.png" alt="Twitter Project" >
+        </div>
+       <div class="col-md-8">
+         <div class="card-body">
+            <h5 class="card-title">Twitter Clone</h5>
+            <p class="card-text">This is Twitter base projects which imitates the functionality of the real Twitter website. The look and feel of the website projects is same as of the original website. I have used Html, css and javascript in this project. Other than this I have also used bootstrap. </p>
+            <p class="card-text"><small class="text-muted">
+                Test Login Account<br>Email: test@gmail.com <br>Password:1234
+
+            </small></p>
+            <a href="https://twitter.com/i/flow/login" target="_blank" class="btn btn-secondary">Website link</a>
+            <a href="https://github.com/" target="_blank" class="btn btn-secondary">Github link</a>
+            
+            
+
+
+         </div>
+       </div>
+    </div>
+  </div>
+
+ 
+
+
+
+
+
+  </body>
 </html>
