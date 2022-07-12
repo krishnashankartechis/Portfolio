@@ -1,108 +1,86 @@
-
-
-
-
-body{
-    font-family: 'monospace',sans-serif;
+body {
+    font-family: "monospace", sans-serif;
 }
 
-.font-primary{
-    color: #00ababae;
+.font-primary {
+    color: #00abae;
 }
 
-
-.title-icon{
-    font-size: 35px;
-    font-weight: bold;
-
-}
-.font-black{
-    font-size: 18px;
-}
-#about-h2{
-    font-size:25px;
+.title-icon {
+    font-size: 20px;
     font-weight: bold;
 }
 
-#about{
-    margin: 50px auto;
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: black !important;
+}
+
+#about {
+    margin: 60px auto;
     max-width: 400px;
     text-align: center;
 }
 
-#about img{
+#about img {
     border-radius: 50%;
-    width: 200px;
-    margin: bottom 10px;
+    width: 300px;
+    margin-bottom: 10px;
 }
 
-#about .name{
-    font-size: 20px;
-    font-weight: bold;
-    margin: bottom 10px;
+#about .name {
+    font-size: 19px;
 }
-#about .vocation{
-    font-size: 17;
-    color: grey;
-    margin: bottom 10px;
-}
-#about .skills{
-    font-size: 16;
-    margin: bottom 10px;
-    color: #33c0c0d5;
-    text-shadow: h-shadow v-shadow black;
 
+#about .vocation {
+    font-size: 17px;
+    color: #ababab;
+    margin-bottom: 10px;
 }
-#about .email{
-    margin-top: 14px;
-    font-size:13;
-    font-weight:bold;
-}
-#about p{
-    font-style: italic;
-}
-#about .icons{
-    font-size:20px;
-    margin-top:20px ;
-}
-#about .icons a{
-    color: black;
-    
-}
-p{
+
+#about .skills {
     font-size: 14px;
+    color: #00abae;
+    margin-bottom: 10px;
 }
 
-a.font-black{
-    color: black !important;
-
+#about .email {
+    margin-top: 14px;
+    font-size: 15px;
 }
 
-
-
-#projects{
-    margin:60px auto;
-    width:80%;
-
+#about .icons {
+    margin-top: 20px;
+    font-size: 30px;
 }
 
-#projects h2{
+#about .icons a {
+    color: black;
+}
+
+#project {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#project h2 {
     text-align: center;
-    font-size:25px;
-    font-weight: bold;
 }
 
-#projects .card img{
-    width:100%;
-} 
-
-
-#projects .card-title{
-    font-weight: bold;
+#project .card img {
+    width: 100%;
+    border-radius: 3%;
 }
 
-#twitter-image{
-    margin-left:10px;
-
-    width:90%;
+#project .card-title {
+    font-weight: bold;
 }
